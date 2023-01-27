@@ -22,7 +22,7 @@ function resetGame() {
     }
     currentPlayer = "X";
   }
-  let winnerMessage = document.createElement("div");
+  let winnerMessage = document.createElement("h1");
   winnerMessage.id = "winner-message";
   document.body.appendChild(winnerMessage);
   function checkForWinner() {
