@@ -21,6 +21,9 @@ function resetGame() {
       cells[i].innerHTML = "";
     }
     currentPlayer = "X";
+    const h1 =document.getElementById("winner-message");
+    console.log(h1)
+    h1.innerText = " "
   }
   let winnerMessage = document.createElement("h1");
   winnerMessage.id = "winner-message";
